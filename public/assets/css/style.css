@@ -1,0 +1,60 @@
+.container{
+    width: 2200px;
+    padding-left: 50px;
+}
+.todo-controls li {
+    list-style: none;
+    padding:10px;
+}
+li.done{
+   text-decoration: line-through;
+}
+.todo-list li{
+    list-style: none;
+    padding: 10px;
+    background-color: rgb(213, 216, 219) !important;
+    color: rgb(2, 0, 0);
+    margin-top: 5px;
+    width:500px;
+}
+#form_section{
+    margin-left: 100px;
+}
+
+input,button{
+    padding: 2px;
+}
+/* .icon-edit{
+   background-color: blue;
+   color: white;
+   padding: 5px; */
+   /* margin-left:330px; */
+/* } */
+ .icon-done{
+    /* background-color: green; */
+    /* color: white; */
+    /* padding: 5px; */
+ }
+ 
+  .icon-delete{
+    /* background-color: red;
+    color: white;
+    padding: 5px; */ 
+    /* margin-left:300px; */
+ /* margin-right:0px; */
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

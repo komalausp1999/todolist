@@ -7,12 +7,22 @@
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
         "prod": "npm run production",
-        "production": "mix --production"
+        "production": "mix --production",
+        "build": "CI= npm run build"
     },
     "devDependencies": {
+        "@webpack-cli/generators": "^2.4.2",
         "axios": "^0.21",
+        "css-loader": "^6.7.1",
+        "html-webpack-plugin": "^5.5.0",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
-        "postcss": "^8.1.14"
+        "postcss": "^8.1.14",
+        "prettier": "^2.6.2",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.72.1",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.9.0",
+        "workbox-webpack-plugin": "^6.5.3"
     }
 }
